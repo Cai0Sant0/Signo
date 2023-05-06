@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imagens/zodiaco.png" type="image/x-icon">
+    <title>Descubra seu signo</title>
+</head>
+<body>
+    <main>
+                <section id="form">
+                    <h1 class="titulo">Descubra seu signo</h1>
+                    <p class="para">Coloque aqui informações para descobrirmos seu signo!</p>
+                    <form action="#" method="get" autocomplete="on">
+                        <div class="campo01">
+                            <label for="nome" class="nom">Nome:</label>
+                            <input type="text" name="nom" id="nome" required maxlength="30" placeholder="Coloque seu nome">
+                        </div>
+                        <div class="campo">
+                           <fieldset>
+                            <legend>Data de nascimento</legend>
+                                <label for="dia" class="dia">Dia:</label>
+                                <input type="number" name="d" id="dia" max="31" placeholder="Dia que nasceu" required>
+                                <label for="mes" class="mes">Mês:</label>
+                                <input type="number" name="m" id="mes" max="12" placeholder="Mês que nasceu" required>
+                           </fieldset>
+                        </div>
+                        <input type="submit" value="Enviar" onclick="signo()">
+                        <input type="reset" value="Apagar">
+                    </form>
+                </section>
+            <div id="resposta">
+
+            </div>
+            <script src="sig.js"></script>
+    </main>
+</body>
+</html>
