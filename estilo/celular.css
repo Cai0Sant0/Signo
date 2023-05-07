@@ -44,6 +44,9 @@ telas grandes - 1080px até 1920px
         top: 5em;
     }
     #form > form >input{
-        margin-top: 1.6em;
+        margin-top: 1.4em;
+    }
+    p{
+        font-size: 1em;
     }
 }
