@@ -10,21 +10,18 @@ telas grandes - 1080px até 1920px
 
 @media screen and (min-width:360px) and (max-width:720px) {
     #form{
-        width: 70%;
-        height: 60%;
+        width: 55%;
+        height: 70%;
     }
     .campo>fieldset{
-       display: none;
+        width: 30%;
+        margin: auto;
     }
     fieldset>.dia{
-        position: relative;
-        left: 40%;
-        bottom: 2em;
+       margin: auto;
     }
     fieldset>.mes{
-        position: relative;
-        left: 20%;
-        bottom: 2em;
+        margin: auto;
     }
     fieldset>input{
         margin: auto;
