@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoints
+------------------------------
+ Celular - 360px até 720px
+ Tablet - 768px até 1024px
+ laptop - 992px até 1366px
+telas grandes - 1080px até 1920px
+*/
+
+@media screen and (min-width:360px) and (max-width:720px) {
+    #form{
+        width: 70%;
+        height: 60%;
+    }
+    .campo>fieldset{
+       width: 300px;
+    }
+    fieldset>.dia{
+        position: relative;
+        left: 40%;
+        bottom: 2em;
+    }
+    fieldset>.mes{
+        position: relative;
+        left: 20%;
+        bottom: 2em;
+    }
+    fieldset>input{
+        display: block;
+        margin: auto;
+    }
+    #form > form >input{
+        margin-top: 1.5em;
+    }
+}
