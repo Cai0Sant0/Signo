@@ -14,7 +14,7 @@ telas grandes - 1080px até 1920px
         height: 60%;
     }
     .campo>fieldset{
-       width: 40%;
+       display: none;
     }
     fieldset>.dia{
         position: relative;
