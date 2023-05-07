@@ -9,31 +9,27 @@ telas grandes - 1080px até 1920px
 */
 
 @media screen and (min-width:360px) and (max-width:720px) {
-    html,body{
-        background-image: none;
-    }
-    .para{
-        font-size: 0.9em;
-    }
-    #form >.titulo{
-        font-size: 1.5em;
-    }
     #form{
         width: 70%;
         height: 70%;
     }
     .campo>fieldset{
         width: 200px;
-        height: 150px;
+        height: 200px;
         margin: auto;
     }
-    fieldset>.dia{
-       margin: auto;
+    fieldset>#dia{
+        display: block;
+        margin: auto;
+    }
+    fieldset>#mes{
+        display: block;
+        margin: auto;
     }
     fieldset>.mes{
         margin: auto;
     }
     #form > form >input{
-        margin-top: 3em;
+        margin-top: 5em;
     }
 }
