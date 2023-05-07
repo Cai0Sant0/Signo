@@ -14,7 +14,7 @@ telas grandes - 1080px até 1920px
         height: 60%;
     }
     .campo>fieldset{
-       width: 300px;
+       width: 40%;
     }
     fieldset>.dia{
         position: relative;
@@ -27,7 +27,6 @@ telas grandes - 1080px até 1920px
         bottom: 2em;
     }
     fieldset>input{
-        display: block;
         margin: auto;
     }
     #form > form >input{
