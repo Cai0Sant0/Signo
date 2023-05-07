@@ -32,7 +32,7 @@ function signo(){
             form.parentNode.removeChild(form)
         }
         signo = "Peixes"
-        res.innerHTML = `<h1>${nome.value}, você é do signo de ${signo}</h1>`
+        res.innerHTML = `<h1>${nome.value} você é do signo de ${signo}</h1>`
         res.innerHTML+= "<p>Pontos fortes: Peixes é um signo sensível e intuitivo, conhecido por sua compaixão,imaginação e sabedoria. São pessoas criativas e empáticas, que se preocupam profundamente com os outros e têm uma habilidade natural para sentir as emoções dos outros. Possuem uma habilidade natural para a arte, música e outras formas de expressão criativa.</p>"
         res.innerHTML+= '<p>Pontos fracos: Peixes pode ser confuso, passivo e indeciso em momentos de estresse.Eles também podem ter dificuldade em estabelecer limites e podem ser vistos como escapistas em relação aos problemas da vida.</p>'
     }

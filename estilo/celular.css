@@ -49,4 +49,7 @@ telas grandes - 1080px até 1920px
     p{
         font-size: 1em;
     }
+    h1{
+        font-size: 2em;
+    }
 }
