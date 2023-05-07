@@ -10,7 +10,7 @@ telas grandes - 1080px até 1920px
 
 @media screen and (min-width:360px) and (max-width:720px) {
     #form{
-        width: 70%;
+        width: 75%;
         height: 70%;
     }
     .campo>fieldset{
@@ -18,18 +18,32 @@ telas grandes - 1080px até 1920px
         height: 200px;
         margin: auto;
     }
+    fieldset>legend{
+        font-size: 1.4em;
+    }
+    fieldset>.dia{
+        margin-left: 40%;
+        position: relative;
+        top: 1.3em;
+    }
     fieldset>#dia{
         display: block;
         margin: auto;
+        position: relative;
+        top: 2em;
+    }
+    fieldset>.mes{
+        margin-left: 40%;
+        position: relative;
+        top: 3em;
     }
     fieldset>#mes{
         display: block;
         margin: auto;
-    }
-    fieldset>.mes{
-        margin: auto;
+        position: relative;
+        top: 5em;
     }
     #form > form >input{
-        margin-top: 5em;
+        margin-top: 1.6em;
     }
 }
