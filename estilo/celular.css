@@ -9,12 +9,19 @@ telas grandes - 1080px até 1920px
 */
 
 @media screen and (min-width:360px) and (max-width:720px) {
+    .para{
+        font-size: 0.9em;
+    }
+    #form >.titulo{
+        font-size: 1.5em;
+    }
     #form{
-        width: 55%;
+        width: 70%;
         height: 70%;
     }
     .campo>fieldset{
-        width: 30%;
+        width: 200px;
+        height: 150px;
         margin: auto;
     }
     fieldset>.dia{
@@ -23,10 +30,7 @@ telas grandes - 1080px até 1920px
     fieldset>.mes{
         margin: auto;
     }
-    fieldset>input{
-        margin: auto;
-    }
     #form > form >input{
-        margin-top: 1.5em;
+        margin-top: 3em;
     }
 }
