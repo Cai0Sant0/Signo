@@ -21,8 +21,8 @@ function signo(){
         }
         signo = "Aquário"
         res.innerHTML = `<h1>${nome.value} você é do signo de ${signo}</h1>`
-        res.innerHTML+= "<p>Pontos fortes: Aquário é conhecido por sua originalidade, sua mente aberta e seu compromisso com a justiça e a igualdade. As pessoas desse signo têm uma forteintuição e uma grande capacidade de pensar fora da caixa. Eles são muito independentes e valorizam sua liberdade acima de tudo. Aquário é também muito humanitário e está sempre procurando maneiras de ajudar os outros e melhorar o mundo.</p>"
-        res.innerHTML+="<p>Pontos fracos: Aquário pode ser muito teimoso e inflexível em suas crenças, o que pode dificultar a resolução de problemas e a cooperação com os outros. Eles podem ser vistos como distantes ou indiferentes emocionalmente, o que pode dificultar acriação de relacionamentos profundos e significativos. Aquário também pode ser muito impaciente e impetuoso em suas decisões.</p>"
+        res.innerHTML+= "<p>Pontos fortes: Aquário é conhecido por sua originalidade, sua mente aberta e seu compromisso com a justiça e a igualdade. As pessoas desse signo têm uma forte intuição e uma grande capacidade de pensar fora da caixa. Eles são muito independentes e valorizam sua liberdade acima de tudo. Aquário é também muito humanitário e está sempre procurando maneiras de ajudar os outros e melhorar o mundo.</p>"
+        res.innerHTML+="<p>Pontos fracos: Aquário pode ser muito teimoso e inflexível em suas crenças, o que pode dificultar a resolução de problemas e a cooperação com os outros. Eles podem ser vistos como distantes ou indiferentes emocionalmente, o que pode dificultar a criação de relacionamentos profundos e significativos. Aquário também pode ser muito impaciente e impetuoso em suas decisões.</p>"
     }
     else if(d>27 && m==2){
         window.alert('ERRO!!!(Dia inválido)')
@@ -52,7 +52,7 @@ function signo(){
     }
         signo = "Touro"
         res.innerHTML = `<h1>${nome.value} você é do signo de ${signo}</h1>`
-        res.innerHTML+= "<p>Pontos fortes: Touro é um signo prático e confiável, conhecido por sua lealdade e senso de estabilidade. São pessoas trabalhadoras e persistentes, com um grande senso de determinação. Também têm uma apreciação pela beleza e pela qualidade de vida </p>"
+        res.innerHTML+= "<p>Pontos fortes: Touro é um signo prático e confiável, conhecido por sua lealdade e senso de estabilidade. São pessoas trabalhadoras e persistentes, com um grande senso de determinação.Também têm uma apreciação pela beleza e pela qualidade de vida </p>"
         res.innerHTML+= "<p>Pontos fracos: Touro pode ser teimoso e inflexível em suas opiniões, o que pode dificultar a comunicação com os outros. Além disso, pode ser materialista e preguiçoso em relação a atividades físicas.</p>"
     }
     else if((d>=21 && m ==5) || (d<=20 && m ==6)){
@@ -79,8 +79,8 @@ function signo(){
     }
         signo = "Leão"
         res.innerHTML = `<h1>${nome.value} você é do signo de ${signo}</h1>`
-        res.innerHTML+= "<p>Pontos fortes: Leão é um signo dominante e expressivo, conhecido por suagenerosidade, carisma e liderança. São pessoas criativas, confiantes e com umagrande presença de palco. Possuem uma habilidade natural para liderar equipes einspirar os outros com sua energia e entusiasmo.</p>"
-        res.innerHTML+= "<p>Pontos fracos: Leão pode ser arrogante, autoritário e dominador em momentos deestresse. Eles também podem ser vistos como egocêntricos e ter dificuldade em ouvir os outros. Leão pode ter dificuldade em trabalhar em equipe, a menos que sejam o líder.</p>"
+        res.innerHTML+= "<p>Pontos fortes: Leão é um signo dominante e expressivo, conhecido por sua generosidade, carisma e liderança. São pessoas criativas, confiantes e com uma grande presença de palco. Possuem uma habilidade natural para liderar equipes e inspirar os outros com sua energia e entusiasmo.</p>"
+        res.innerHTML+= "<p>Pontos fracos: Leão pode ser arrogante, autoritário e dominador em momentos de estresse. Eles também podem ser vistos como egocêntricos e ter dificuldade em ouvir os outros. Leão pode ter dificuldade em trabalhar em equipe, a menos que sejam o líder.</p>"
     }
     else if((d>=23 && m ==8) || (d<=22 && m ==9)){
     if(form.parentNode){
@@ -107,7 +107,7 @@ function signo(){
         signo = "Escorpião"
         res.innerHTML = `<h1>${nome.value} você é do signo de ${signo}</h1>`
         res.innerHTML+= "<p>Pontos fortes: Escorpião é um signo intenso e apaixonado, conhecido por sua determinação, mistério e lealdade. São pessoas profundas e poderosas, que não têm medo de enfrentar desafios e superar obstáculos. Possuem uma habilidade natural para investigar e descobrir a verdade em situações complexas.</p>"
-        res.innerHTML += "<p>Pontos fracos: Escorpião pode ser ciumento, possessivo e manipulador em momentos</p>"
+        res.innerHTML += "<p>Pontos fracos: Escorpião pode ser ciumento, possessivo e manipulador em alguns momentos</p>"
     }
     else if((d>=22 && m ==11) || (d<=21 && m ==12)){
     if(form.parentNode){
@@ -115,8 +115,8 @@ function signo(){
     }
         signo = "Sagitário"
         res.innerHTML = `<h1>${nome.value} você é do signo de ${signo}</h1>`
-        res.innerHTML+= "<p>Pontos fortes: Sagitário é um signo aventureiro e otimista, conhecido por suasinceridade, curiosidade e filosofia de vida. São pessoas extrovertidas e cheias deenergia, que gostam de explorar novas ideias e lugares. Possuem uma habilidade natural para inspirar os outros com sua visão de futuro e entusiasmo.</p>"
-        res.innerHTML += "<p>Pontos fracos: Sagitário pode ser imprudente, excessivamente confiante e  desorganizado em momentos de estresse. de estresse. Eles também podem ser vistos como desconfiados e ter dificuldade em perdoar as pessoas que os traíram.</p>"
+        res.innerHTML+= "<p>Pontos fortes: Sagitário é um signo aventureiro e otimista, conhecido por sua sinceridade, curiosidade e filosofia de vida. São pessoas extrovertidas e cheias de energia, que gostam de explorar novas ideias e lugares. Possuem uma habilidade natural para inspirar os outros com sua visão de futuro e entusiasmo.</p>"
+        res.innerHTML += "<p>Pontos fracos: Sagitário pode ser imprudente, excessivamente confiante e  desorganizado em momentos de estresse.Eles também podem ser vistos como desconfiados e ter dificuldade em perdoar as pessoas que os traíram.</p>"
     }
     else{
     if(form.parentNode){
