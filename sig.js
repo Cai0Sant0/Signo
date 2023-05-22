@@ -8,7 +8,7 @@ function signo(){
   if(dia.value.length==0 || mes.value.length==0 || nome.value.length ==0){
     window.alert("[ERRO!!!!] FALTA DE DADOS")
   }
-  else if (dia.value > 31 || mes.value >12){
+  else if (dia.value > 31 || mes.value >12 || dia.value <= 0 || mes.value <=0){
     window.alert("[ERRO!!!] MÊS OU DIA INVÁLIDO")
   }
   else{
